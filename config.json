@@ -1,0 +1,26 @@
+{
+  "name": "Rômulo Furtado",
+  "job": "Frontend Developer",
+  "github": "romulofh",
+  "playlists": {
+    "jogos": [
+      {
+        "title": "Casimiro jogando MW",
+        "url": "https://www.youtube.com/watch?v=EbGS_CLiCCM",
+        "thumb": "https://img.youtube.com/vi/EbGS_CLiCCM/hqdefault.jpg"
+      },
+      {
+        "title": "Alanzoka Jogando DayZ",
+        "url": "https://www.youtube.com/watch?v=VnwrVKAWSqA",
+        "thumb": "https://img.youtube.com/vi/VnwrVKAWSqA/hqdefault.jpg"
+      }
+    ],
+    "front-end": [
+      {
+        "title": "Gerando Imagens com NextJS 13!",
+        "url": "https://www.youtube.com/watch?v=HdQ1Ggzr5DQ",
+        "thumb": "https://img.youtube.com/vi/HdQ1Ggzr5DQ/hqdefault.jpg"
+      }
+    ]
+  }
+}
