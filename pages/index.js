@@ -1,5 +1,4 @@
 import {React, useState} from "react"
-import { CSSReset } from "../src/components/CSSReset"
 import Header from "../src/components/Header"
 import Menu from "../src/components/Menu/Menu"
 import TimeLine from "../src/components/Timeline"
@@ -16,7 +15,6 @@ function HomePage() {
    
   return (
     <>
-    <CSSReset />
       <div style={styleHome}>
         <Menu filtro={filtro} setFiltro={setFiltro} />
         <Header />
