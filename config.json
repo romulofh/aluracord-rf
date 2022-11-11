@@ -2,7 +2,20 @@
   "name": "Rômulo Furtado",
   "job": "Frontend Developer",
   "github": "romulofh",
+  "bg": "https://images.unsplash.com/photo-1611063158871-7dd3ed4a2ac8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z3JhZmZpdGl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   "playlists": {
+    "música": [
+      {
+        "title": "Djonga - Bala Fini",
+        "url": "https://www.youtube.com/watch?v=0VG9Pmt71V0",
+        "thumb": "https://img.youtube.com/vi/0VG9Pmt71V0/hqdefault.jpg"
+      },
+      {
+        "title": "Djonga - Conversa com uma menina branca",
+        "url": "https://www.youtube.com/watch?v=K60JEbq-fQE",
+        "thumb": "https://img.youtube.com/vi/K60JEbq-fQE/hqdefault.jpg"
+      }
+    ],
     "jogos": [
       {
         "title": "Casimiro jogando MW",

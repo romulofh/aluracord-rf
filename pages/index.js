@@ -1,6 +1,7 @@
+import {React, useState} from "react"
 import { CSSReset } from "../src/components/CSSReset"
-import Header from "../src/components/header"
-import Menu from "../src/components/Menu"
+import Header from "../src/components/Header"
+import Menu from "../src/components/Menu/Menu"
 import TimeLine from "../src/components/Timeline"
 import config from '../config.json'
 
@@ -11,13 +12,15 @@ function HomePage() {
     flex: 1,
    }
 
+   const [filtro, setFiltro] = useState("")
+   
   return (
     <>
     <CSSReset />
       <div style={styleHome}>
-        <Menu />
+        <Menu filtro={filtro} setFiltro={setFiltro} />
         <Header />
-        <TimeLine playlists={config.playlists} />
+        <TimeLine searchValue={filtro} playlists={config.playlists} />
       </div>
     </>
   )
